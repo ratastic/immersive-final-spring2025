@@ -361,52 +361,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314878010}
   m_CullTransparentMesh: 1
---- !u!1 &322488695
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 322488696}
-  - component: {fileID: 322488697}
-  m_Layer: 0
-  m_Name: ivoryOneActivator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &322488696
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322488695}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1863845019}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &322488697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322488695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fe69aa17fc264b7a8b7c83af5a38485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activateObjects: {fileID: 11400000, guid: a54b476e59aa741239c588db3b097b4d, type: 2}
-  ivoryObjectOne: {fileID: 2114991815452236471}
 --- !u!1 &355346132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,8 +2096,7 @@ Transform:
   m_LocalPosition: {x: 133.00531, y: -71.275024, z: -65.68106}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 322488696}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1890760873
