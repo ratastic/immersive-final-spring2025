@@ -2098,7 +2098,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7201214743527131532}
-  - {fileID: 1047235398083967134}
+  - {fileID: 746462510573749670}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2090189976
@@ -2526,22 +2526,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8781781699856319435}
   m_Mesh: {fileID: -6034367961952253212, guid: 11381bcab644d4437ba432c9637183f9, type: 3}
---- !u!1 &415271966790001188
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1047235398083967134}
-  m_Layer: 0
-  m_Name: MG018IvoryGgravoirOrHairParter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!23 &451439059268679250
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2665,12 +2649,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3198205189174451244}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 1.825943, y: 24.394276, z: 93.68935}
+  m_LocalScale: {x: 0.028060611, y: 0.028060611, z: 0.028060611}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1047235398083967134}
+  m_Father: {fileID: 1890760874}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &810933521186247377
 MeshFilter:
@@ -2776,22 +2760,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1047235398083967134
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 415271966790001188}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 1.825943, y: 24.394276, z: 93.68935}
-  m_LocalScale: {x: 0.028060611, y: 0.028060611, z: 0.028060611}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 746462510573749670}
-  m_Father: {fileID: 1890760874}
-  m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
 --- !u!4 &1090622366499421642
 Transform:
   m_ObjectHideFlags: 0
@@ -4737,13 +4705,14 @@ GameObject:
   - component: {fileID: 746462510573749670}
   - component: {fileID: 2352287914128312818}
   - component: {fileID: 4254391847921070692}
+  - component: {fileID: 4254391847921070693}
   m_Layer: 0
   m_Name: MG018IvoryGgravoirOrHairParter:Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &3202320217070668896
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5421,6 +5390,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4254391847921070693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3198205189174451244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd172ee0420b4f2e8c70281fff82910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  artID: ivoryObj02
 --- !u!4 &4290737812450654759
 Transform:
   m_ObjectHideFlags: 0
