@@ -3,7 +3,12 @@ guid: bf31193ac2b704ff4b56cfa713edce1a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bamboo Fence
+    second: {fileID: 2100000, guid: 56635bedfc5854ae484699b64dfbb6d1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

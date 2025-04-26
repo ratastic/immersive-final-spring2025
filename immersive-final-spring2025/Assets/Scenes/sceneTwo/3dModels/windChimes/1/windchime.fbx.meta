@@ -3,7 +3,17 @@ guid: 3dcc980d0f4bd4ac38c52973e1cb8572
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cgbookcaseOld_Iron_012K
+    second: {fileID: 2100000, guid: 7030d15dde276414ea93bd50a6d4c936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steel_rusted
+    second: {fileID: 2100000, guid: d37069f2ff1b34643b8bf0ce59aea292, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
