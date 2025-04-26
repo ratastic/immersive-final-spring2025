@@ -3,7 +3,37 @@ guid: ae92c12bb0629481da7b261bc8d31a3e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Skull_Scene_candleBodyMat
+    second: {fileID: 2100000, guid: 71d13392c274b448d8a46ccd3c4c07f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Skull_Scene_candleStemMat
+    second: {fileID: 2100000, guid: 79d7977cee43c4e09a99a9879068c2ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Skull_Scene_candleWaxMat
+    second: {fileID: 2100000, guid: a58a7d0ea7b9143099b2610b7962f30b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skull_Scene_SkullMain_teethMat
+    second: {fileID: 2100000, guid: 30f81606082144295b106131aef30472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skull_Scene_skullHead_SkullMainMat
+    second: {fileID: 2100000, guid: 71d13392c274b448d8a46ccd3c4c07f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: candleFlame_Candle_Skull_SceneMat
+    second: {fileID: 2100000, guid: 69e17ce181ee74f65883aa5b8ba546b3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
