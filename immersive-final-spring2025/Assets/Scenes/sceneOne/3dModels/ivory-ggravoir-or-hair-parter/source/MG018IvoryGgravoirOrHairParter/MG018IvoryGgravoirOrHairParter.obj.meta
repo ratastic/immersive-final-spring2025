@@ -3,7 +3,12 @@ guid: e482491f60f164e87b0d3d5d1ff740c7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MG018IvoryGgravoirOrHairParter_MeshMat
+    second: {fileID: 2100000, guid: d201e77ce675a4c18bbedc02ed63f665, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
