@@ -3,7 +3,12 @@ guid: 2b93b62b472e5475bbfac0aa9d84952c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArquetaMANText_Material_u1_v1
+    second: {fileID: 2100000, guid: c9a5072678f8e40bfa7a40e085dcf57c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
