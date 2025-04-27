@@ -3,7 +3,17 @@ guid: 783dd549cee3247eaa8b3f7f1b9d98e6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ele_Tuskh
+    second: {fileID: 2100000, guid: 65ec76bb69e1742b8bc2ad1645de134e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ElphSkin
+    second: {fileID: 2100000, guid: 07a899514a5de446f8412166b15684a7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
