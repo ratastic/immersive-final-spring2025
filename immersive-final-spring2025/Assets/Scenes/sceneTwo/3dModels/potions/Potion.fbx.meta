@@ -14,6 +14,61 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: potion01_metal
     second: {fileID: 2100000, guid: 9da96c6af56bf45e084bf42eda819c3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion02_glass
+    second: {fileID: 2100000, guid: 0c50a62f32bbe41c191148e2a7f3e9f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion02_metal
+    second: {fileID: 2100000, guid: 6deeeaaba40924bd48a71a5493e07c7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion03_glass
+    second: {fileID: 2100000, guid: 5b957e05b1cd447fd89b676748cee82e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion03_metal
+    second: {fileID: 2100000, guid: 0aedde6129d8d4f63a3521aa7a1207f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion04_glass
+    second: {fileID: 2100000, guid: c899892d4124a40509f4f89dfa0fee4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion04_metal
+    second: {fileID: 2100000, guid: c0a0b8a7c66834815bbc054962c5a6d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion06_glass
+    second: {fileID: 2100000, guid: 9d9caf45709284798992ebb9434a3dba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion06_metal
+    second: {fileID: 2100000, guid: c6a6e891bff574fad9a07d7411d3d54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion07_glass
+    second: {fileID: 2100000, guid: 6a16830f025f6426c986828c5fe60e0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: potion07_metal
+    second: {fileID: 2100000, guid: a31e4c3e2db7a425292891b18a0b5065, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shelf_mt
+    second: {fileID: 2100000, guid: e28fd14c7f2c84b16836d170cc08da04, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
