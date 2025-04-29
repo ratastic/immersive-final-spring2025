@@ -6,6 +6,11 @@ TagManager:
   tags:
   - sceneSwitch
   - openMailbox
+  - ivoryCarvingSensor
+  - casketSensor
+  - turtleShellSensor
+  - rhinoHornSensor
+  - eleTuskSensor
   layers:
   - Default
   - TransparentFX
