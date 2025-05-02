@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+// this is purchase button logic
 // https://www.reddit.com/r/csharp/comments/8rto8t/using_foreachin_statements_with_a_c_dictionary/
 public class PurchaseObjButton : MonoBehaviour
 {

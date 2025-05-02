@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance; // singleton syntax i guess ?
     public List<string> purchasedArt = new List<string>();
 
+    // maybe something here?????
+
     public void Awake()
     {
         if (Instance == null)

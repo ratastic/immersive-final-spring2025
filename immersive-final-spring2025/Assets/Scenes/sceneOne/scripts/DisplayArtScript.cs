@@ -17,5 +17,7 @@ public class DisplayArtScript : MonoBehaviour
         {
             GetComponent<MeshRenderer>().enabled = false; // i dont think this else statement is necessary tbh
         }
+
+        //maybe dd chnges here?????
     }
 }
