@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 // this is purchase button logic
 // https://www.reddit.com/r/csharp/comments/8rto8t/using_foreachin_statements_with_a_c_dictionary/
 public class PurchaseObjButton : MonoBehaviour
@@ -27,6 +29,7 @@ public class PurchaseObjButton : MonoBehaviour
     public void PurchaseArt(string artID) // this is what happens when you click the button: art is purchased 
     {
         GameManager.Instance.PurchaseArt(artID);
-        Debug.Log($"boughhhhhtttt: {artID}"); 
+        Debug.Log($"boughhhhhtttt: {artID}");
+        SceneManager.LoadScene("sceneOne");
     }
 }
