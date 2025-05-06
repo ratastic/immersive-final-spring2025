@@ -41,11 +41,11 @@ public class PurchaseButtonsPopUP : MonoBehaviour
 
         theDialogue = new Dictionary<string, string[]>
         {
-            { "ivoryCarvingSensor", new string[]{ } },
-            { "casketSensor", new string[]{ } },
-            { "rhinoHornSensor", new string[]{ } },
-            { "eleTuskSensor", new string[]{ }  },
-            { "turtleShellSensor", new string[]{"VEGAAAA", "BENJAMINN", "JAFRI", "SOUFERIAN"} }
+            { "ivoryCarvingSensor", new string[]{ "Hi! I have this decorative piece that you can display at your museum— it’s a hand-carved ivory knife.", "It will be a great addition to your collection, and as I’ve said before, the money truly helps.", "I was able to buy my son medicine thanks to your purchases."} },
+            { "casketSensor", new string[]{"Step right in! Oh... Do I recognize you from somewhere?", "That’s our hand-carved ivory chest, and by “our” I mean my family’s.", "It’s not an heirloom or anything, so we don’t have any reason to keep it.", "The money means more to us anyway."} },
+            { "rhinoHornSensor", new string[]{"You again! Have you noticed the bad weather?", "Anyways, that’s a white rhino horn in pristine condition.", "Are you interested? It’s quite rare."} },
+            { "eleTuskSensor", new string[]{"Hello...", "I see you’re interested in the Asian elephant tusk. Elephants tusks are known to symbolize strength, longevity, wisdom, and power in many cultures.", "Oh? It’s for a museum display.", "Well… not only will it function as a talisman, it will also attract many customers."}  },
+            { "turtleShellSensor", new string[]{"Welcome", "Ah yes! A loggerhead turtle shell painted over with a dark ochre by yours truly.", "These are quite hard to come by!", "It’s yours for the right price, and the money really helps."} }
         };
     }
 

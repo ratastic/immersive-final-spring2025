@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: -1
-    y: 53
+    y: 54
     width: 1440
     height: 847
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 3368
+  controlID: 18
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 3369
+  controlID: 19
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 308.5
     height: 575
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -1
-    y: 83
+    y: 84
     width: 265.5
     height: 554
   m_SerializedDataModeController:
@@ -392,9 +392,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 64990000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 246cfafffcc2faff9282fcff16dbfcff8a32fdfff436fdff22cafdffc821feff4826feff1cc6feff2e1efffff222ffffdcf1ffff30fbffff8c6500009e650000f8650000106900006c6a0000486b0000526b0000146e0000886e00001c740000f804010000050100d66001006086010072860100cc860100e4890100408b01001c8c0100268c0100e88e01005c8f0100f09401005c990200bcd30200
+      m_ExpandedIDs: 30fbffff12690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 265.5
-    y: 83
+    y: 84
     width: 863
     height: 554
   m_SerializedDataModeController:
@@ -833,7 +833,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.00667876, y: -0.98593247, z: -0.039935514, w: -0.16265205}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -965,7 +965,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1130.5
-    y: 83
+    y: 84
     width: 307.5
     height: 554
   m_SerializedDataModeController:
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -1
-    y: 658
+    y: 659
     width: 1440
     height: 201
   m_SerializedDataModeController:
@@ -1026,7 +1026,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: PopU
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -1036,24 +1036,24 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/sceneTwo
+    - Assets/Scenes/sceneTwo/imges
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: PopU
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/sceneTwo
+  - Assets/Scenes/sceneTwo/imges
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/vega/Desktop/github/immersive-final-spring2025/immersive-final-spring2025
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 184.99973}
-    m_SelectedIDs: 1e9a0000
-    m_LastClickedID: 39454
-    m_ExpandedIDs: 000000000e9a0000109a0000129a0000149a0000169a0000189a00001a9a00001c9a00001e9a0000
+    scrollPos: {x: 0, y: 212}
+    m_SelectedIDs: ce9c0000
+    m_LastClickedID: 40142
+    m_ExpandedIDs: 00000000409a0000429a0000449a0000469a0000489a00004a9a00004c9a00004e9a0000509a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1081,7 +1081,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e9a0000109a0000129a0000149a0000169a0000189a00001a9a00001c9a00001e9a0000
+    m_ExpandedIDs: 00000000409a0000429a0000449a0000469a0000489a00004a9a00004c9a00004e9a0000509a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
