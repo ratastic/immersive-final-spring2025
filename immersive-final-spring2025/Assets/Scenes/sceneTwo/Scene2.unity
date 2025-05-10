@@ -3456,8 +3456,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0833958, y: 1, z: 1.229778}
+  m_Center: {x: -0.29285997, y: 0.0000000059752887, z: 0.054458972}
 --- !u!1001 &69386859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8148,6 +8148,7 @@ MonoBehaviour:
   currTag: 
   isTouching: 0
   linesAreDone: 0
+  canPrintText: 0
 --- !u!1001 &209787423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16666,6 +16667,7 @@ GameObject:
   - component: {fileID: 447566735}
   - component: {fileID: 447566734}
   - component: {fileID: 447566733}
+  - component: {fileID: 447566736}
   m_Layer: 5
   m_Name: buyRhinoTusk
   m_TagString: Untagged
@@ -16749,6 +16751,18 @@ MonoBehaviour:
           m_StringArgument: rhinoTusk
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 447566736}
+        m_TargetAssemblyTypeName: TreeSwitch2, Assembly-CSharp
+        m_MethodName: BuyAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &447566734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16787,6 +16801,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447566731}
   m_CullTransparentMesh: 1
+--- !u!114 &447566736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447566731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6af1a9e0cb1f9847bee8f1a990b6b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeSetIndex: 2
 --- !u!1001 &448564212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20442,8 +20469,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.2085319, y: 2.4494383, z: 1.7663786}
+  m_Center: {x: 0.6042658, y: 0.08443779, z: -0.02385744}
 --- !u!4 &546926778
 Transform:
   m_ObjectHideFlags: 0
@@ -20453,7 +20480,7 @@ Transform:
   m_GameObject: {fileID: 546926776}
   serializedVersion: 2
   m_LocalRotation: {x: -0.8132522, y: -0.13171679, z: 0.048217602, w: 0.5647536}
-  m_LocalPosition: {x: -7.528275, y: 1.8474199, z: -6.5956235}
+  m_LocalPosition: {x: -7.23, y: 0.64, z: -6.12}
   m_LocalScale: {x: 3.7388043, y: 3.738804, z: 5.3087277}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22001,7 +22028,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &597840714
 Transform:
   m_ObjectHideFlags: 0
@@ -22351,6 +22378,7 @@ GameObject:
   - component: {fileID: 604579332}
   - component: {fileID: 604579331}
   - component: {fileID: 604579330}
+  - component: {fileID: 604579333}
   m_Layer: 5
   m_Name: buySkull
   m_TagString: Untagged
@@ -22434,6 +22462,18 @@ MonoBehaviour:
           m_StringArgument: humanSkell
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 604579333}
+        m_TargetAssemblyTypeName: TreeSwitch2, Assembly-CSharp
+        m_MethodName: BuyAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &604579331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22472,6 +22512,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604579328}
   m_CullTransparentMesh: 1
+--- !u!114 &604579333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604579328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6af1a9e0cb1f9847bee8f1a990b6b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeSetIndex: 3
 --- !u!1001 &604837947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24924,6 +24977,7 @@ GameObject:
   - component: {fileID: 681472625}
   - component: {fileID: 681472624}
   - component: {fileID: 681472623}
+  - component: {fileID: 681472626}
   m_Layer: 5
   m_Name: buyTurtleShell
   m_TagString: Untagged
@@ -25007,6 +25061,18 @@ MonoBehaviour:
           m_StringArgument: turtleShell
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 681472626}
+        m_TargetAssemblyTypeName: TreeSwitch2, Assembly-CSharp
+        m_MethodName: BuyAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &681472624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25045,6 +25111,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681472621}
   m_CullTransparentMesh: 1
+--- !u!114 &681472626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681472621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6af1a9e0cb1f9847bee8f1a990b6b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeSetIndex: 1
 --- !u!1 &686511524 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6776884929332466216, guid: ff39902700d57423a83420321816dbf5, type: 3}
@@ -28646,6 +28725,7 @@ GameObject:
   - component: {fileID: 756741162}
   - component: {fileID: 756741161}
   - component: {fileID: 756741160}
+  - component: {fileID: 756741163}
   m_Layer: 5
   m_Name: buyElephantTusk
   m_TagString: Untagged
@@ -28729,6 +28809,18 @@ MonoBehaviour:
           m_StringArgument: elephantTusk
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 756741163}
+        m_TargetAssemblyTypeName: TreeSwitch2, Assembly-CSharp
+        m_MethodName: BuyAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &756741161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28767,6 +28859,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756741158}
   m_CullTransparentMesh: 1
+--- !u!114 &756741163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756741158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6af1a9e0cb1f9847bee8f1a990b6b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeSetIndex: 4
 --- !u!1 &756889040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4834897706570380385, guid: ff39902700d57423a83420321816dbf5, type: 3}
@@ -29971,7 +30076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 091320b76aef14481a17d5997416e438, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40531,6 +40636,7 @@ GameObject:
   - component: {fileID: 1096692595}
   - component: {fileID: 1096692597}
   - component: {fileID: 1096692596}
+  - component: {fileID: 1096692598}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -40602,6 +40708,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096692594}
+  m_Mesh: {fileID: -5495902117074765545, guid: 1f8e513004fff48959acc35d540acf72, type: 3}
+--- !u!64 &1096692598
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096692594}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 1f8e513004fff48959acc35d540acf72, type: 3}
 --- !u!1001 &1097813352
 PrefabInstance:
@@ -46453,15 +46581,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -37.93392
+      value: -36.43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6253867
+      value: 4.401
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -44.41574
+      value: -48.803
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46495,6 +46623,46 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 58a45fca7bbc2483b8db62cfe04fb0cc, type: 2}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.18
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.78519946
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.098939925
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2027455
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.57668626
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -22.906
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 12.813
+      objectReference: {fileID: 0}
+    - target: {fileID: -3133507595975390296, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 69.984
+      objectReference: {fileID: 0}
     - target: {fileID: -2566300951508701841, guid: 407ae776ddad64addade7136da3a4f57, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.91
@@ -60601,6 +60769,7 @@ GameObject:
   - component: {fileID: 1636544888}
   - component: {fileID: 1636544887}
   - component: {fileID: 1636544886}
+  - component: {fileID: 1636544889}
   m_Layer: 5
   m_Name: buyCasket
   m_TagString: Untagged
@@ -60684,6 +60853,18 @@ MonoBehaviour:
           m_StringArgument: casket
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1636544889}
+        m_TargetAssemblyTypeName: TreeSwitch2, Assembly-CSharp
+        m_MethodName: BuyAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1636544887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60722,6 +60903,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636544884}
   m_CullTransparentMesh: 1
+--- !u!114 &1636544889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636544884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6af1a9e0cb1f9847bee8f1a990b6b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeSetIndex: 2
 --- !u!1001 &1637455595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66193,8 +66387,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0913291, y: 1, z: 0.9999999}
+  m_Center: {x: 0.045664445, y: 0, z: 0}
 --- !u!1001 &1776910230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74592,6 +74786,7 @@ GameObject:
   - component: {fileID: 1931992061}
   - component: {fileID: 1931992060}
   - component: {fileID: 1931992059}
+  - component: {fileID: 1931992062}
   m_Layer: 5
   m_Name: buyCarvedIvory
   m_TagString: Untagged
@@ -74675,6 +74870,18 @@ MonoBehaviour:
           m_StringArgument: carvedIvory
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1931992062}
+        m_TargetAssemblyTypeName: TreeSwitch2, Assembly-CSharp
+        m_MethodName: BuyAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1931992060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74713,6 +74920,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931992057}
   m_CullTransparentMesh: 1
+--- !u!114 &1931992062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931992057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6af1a9e0cb1f9847bee8f1a990b6b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeSetIndex: 3
 --- !u!4 &1934630479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ee068a478ed74a4ba163140f6c5f0ee, type: 3}
