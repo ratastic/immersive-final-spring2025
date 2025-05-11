@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,6 +15,8 @@ public class SwitchTrees : MonoBehaviour
 
     void Start()
     {
+        //PlayerPrefs.DeleteKey("TreeSet"); // 🔁 Reset for testing
+
         int currentSet = PlayerPrefs.GetInt("TreeSet", 0);
 
         Debug.Log("Tree set loaded from PlayerPrefs: " + currentSet);
